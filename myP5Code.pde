@@ -11,11 +11,26 @@ void draw(){
   strokeWeight(3);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
+  strokeWeight(1);
+  rect(-2,332,415,90);
+  
+  //snowman main circles
   ellipse(200, 300, 150, 150);
   ellipse(200, 200, 100, 100);
   ellipse(200, 120, 75, 75);
   
-
+  line(240, 187, 298, 153);
+  line(167,187, 110, 153);
+  
+  strokeWeight(3);
+  fill(0,0,0);
+  ellipse(185,112, 5, 5);
+  ellipse(210, 112, 5, 5);
+  
+  fill(255,0,0);
+  strokeWeight(1);
+  rect(163,143,70,20);
+  rect(210, 143, 20, 70);
 }
 
 //🟡Extra FUN Features Ms. Hall Added
