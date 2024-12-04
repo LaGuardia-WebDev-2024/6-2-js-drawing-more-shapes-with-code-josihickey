@@ -12,6 +12,7 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
   strokeWeight(1);
+  stroke(0,0,0);
   rect(-2,332,415,90);
   
   //snowman main circles
@@ -27,10 +28,34 @@ void draw(){
   ellipse(185,112, 5, 5);
   ellipse(210, 112, 5, 5);
   
+  //body buttons
+  fill(0,0,0);
+  ellipse(198,175,5,5);
+  ellipse(198, 190, 5, 5);
+  ellipse(198, 205, 5, 5);
+  
+  //scarf  
   fill(255,0,0);
   strokeWeight(1);
   rect(163,143,70,20);
   rect(210, 143, 20, 70);
+  
+  //earmuffs attempt
+  stroke(255,0,0);
+  strokeWeight(5);
+  fill(0,0,0,0);
+  arc(200,120, 75, 80, 3.14, 6.28)
+  fill(255,0,0);
+  strokeWeight(1);
+  
+  ellipse(163,112,12, 25);
+  ellipse(237, 112, 12, 25);
+  
+  fill(255,165,0);
+  stroke(0,0,0);
+  triangle(192,122,204, 121, 198, 110);
+  
+  
 }
 
 //🟡Extra FUN Features Ms. Hall Added
